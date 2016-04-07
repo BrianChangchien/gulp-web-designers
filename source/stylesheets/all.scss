@@ -1,0 +1,13 @@
+@import 'mixin';
+@import '../../bower_components/bootstrap-sass/assetss/stylesheets/bootstrap';
+
+$color: #566473;
+$font-size: 20px;
+
+html,
+body {
+  height: 100%;
+  font-size: $font-size;
+  color: $color;
+  filter: blur(5px);
+}
